@@ -61,7 +61,6 @@ public class Queue {
         System.out.println(q.peek()); // Output: 20
         q.enqueue(40);
         q.enqueue(50);
-        System.out.println(q.isFull()); // Output: true
         q.enqueue(60); // Output: Queue is full, cannot enqueue element
     }
 }
